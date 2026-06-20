@@ -28,6 +28,8 @@ void main() {
       (element as Fly).fly(element.runtimeType.toString());
     }
   }
+
+  print('END OF PROGRAM');
 }
 
 void drawAllVariants(Drawable d) {
